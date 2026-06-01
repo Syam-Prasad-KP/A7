@@ -9,31 +9,31 @@ const cubBtn = document.getElementById("cubBtn");
 const output = document.getElementById("output");
 
 const add = () => {
-     output.innerText = Number(n1.value)+Number(n2.value);
+     output.textContent = Number(n1.value)+Number(n2.value);
 }
 addBtn.addEventListener("click", add);
 
 const sub = () => {
-     output.innerText = Number(n1.value)-Number(n2.value);
+     output.textContent = Number(n1.value)-Number(n2.value);
 }
 subBtn.addEventListener("click", sub);
 
 const mul = () => {
-     output.innerText = Number(n1.value)*Number(n2.value);
+     output.textContent = Number(n1.value)*Number(n2.value);
 }
 mulBtn.addEventListener("click", mul);
 
 const div = () => {
-     output.innerText = Number(n1.value)/Number(n2.value);
+     output.textContent = Number(n1.value)/Number(n2.value);
 }
 divBtn.addEventListener("click", div);
 
 const sqr = () => {
-     output.innerText = Number(n1.value)**2
+     output.textContent = Number(n1.value)**2
 }
 sqrBtn.addEventListener("click", sqr);
 
 const cub = () => {
-     output.innerText = Number(n1.value)**3
+     output.textContent = Number(n1.value)**3
 }
 cubBtn.addEventListener("click", cub);
