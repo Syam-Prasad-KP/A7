@@ -5,7 +5,7 @@ const subBtn = document.getElementById("subBtn");
 const mulBtn = document.getElementById("mulBtn");
 const divBtn = document.getElementById("divBtn");
 const sqrBtn = document.getElementById("sqrBtn");
-const rtBtn = document.getElementById("rtBtn");
+const cubBtn = document.getElementById("cubBtn");
 const output = document.getElementById("output");
 
 const add = () => {
@@ -33,7 +33,7 @@ const sqr = () => {
 }
 sqrBtn.addEventListener("click", sqr);
 
-const rt = () => {
+const cub = () => {
      output.innerText = Number(n1.value)**3
 }
-rtBtn.addEventListener("click", rt);
+cubBtn.addEventListener("click", cub);
